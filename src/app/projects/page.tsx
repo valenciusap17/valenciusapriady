@@ -88,7 +88,7 @@ export default function Projects() {
               className="mySwiper "
             >
               <SwiperSlide>
-                <Link href="https://perak.cs.ui.ac.id/">
+                <Link href="https://rpl-frontend-freej1ng.vercel.app/">
                   <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/jawabanku.png"
@@ -129,43 +129,45 @@ export default function Projects() {
                 </Link>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
-                  <Image
-                    src="/images/garden-of-terra.png"
-                    width={400}
-                    height={400}
-                    alt="perak"
-                    className="object-cover"
-                  />
-                  <div className="absolute bottom-0 left-0 w-full py-2 bg-gray-900 bg-opacity-75">
-                    <p className="text-white text-lg text-center">
-                      Garden of Terra
-                    </p>
-                  </div>
-
-                  <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 flex flex-col  justify-end p-4 transition-opacity duration-300 px-2">
-                    <div>
-                      <div
-                        className={`${lora.className} text-white `}
-                        style={{ fontSize: "12px" }}
-                      >
-                        Front-End Developer
-                      </div>
-
-                      <div
-                        className={`${lora.className} text-white underline`}
-                        style={{ fontSize: "20px" }}
-                      >
+                <Link href="https://github.com/valenciusap17/gardenofterra">
+                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                    <Image
+                      src="/images/garden-of-terra.png"
+                      width={400}
+                      height={400}
+                      alt="perak"
+                      className="object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 w-full py-2 bg-gray-900 bg-opacity-75">
+                      <p className="text-white text-lg text-center">
                         Garden of Terra
-                      </div>
-                      <div className={`text-white ${roboto.className} mx-2`}>
-                        Ornamental plants shop website built for my own plants
-                        shop in the future
+                      </p>
+                    </div>
+
+                    <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 flex flex-col  justify-end p-4 transition-opacity duration-300 px-2">
+                      <div>
+                        <div
+                          className={`${lora.className} text-white `}
+                          style={{ fontSize: "12px" }}
+                        >
+                          Front-End Developer
+                        </div>
+
+                        <div
+                          className={`${lora.className} text-white underline`}
+                          style={{ fontSize: "20px" }}
+                        >
+                          Garden of Terra
+                        </div>
+                        <div className={`text-white ${roboto.className} mx-2`}>
+                          Ornamental plants shop website built for my own plants
+                          shop in the future
+                        </div>
                       </div>
                     </div>
+                    <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-25 transition-opacity duration-300"></div>
                   </div>
-                  <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-25 transition-opacity duration-300"></div>
-                </div>
+                </Link>
               </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://perak.cs.ui.ac.id/">
@@ -209,41 +211,43 @@ export default function Projects() {
                 </Link>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
-                  <Image
-                    src="/images/notate.png"
-                    width={400}
-                    height={400}
-                    alt="perak"
-                    className="object-cover"
-                  />
-                  <div className="absolute bottom-0 left-0 w-full py-2 bg-gray-900 bg-opacity-75">
-                    <p className="text-white text-lg text-center">Notate</p>
-                  </div>
+                <Link href="https://github.com/valenciusap17/NotateFE">
+                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                    <Image
+                      src="/images/notate.png"
+                      width={400}
+                      height={400}
+                      alt="perak"
+                      className="object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 w-full py-2 bg-gray-900 bg-opacity-75">
+                      <p className="text-white text-lg text-center">Notate</p>
+                    </div>
 
-                  <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 flex flex-col  justify-end p-4 transition-opacity duration-300 px-2">
-                    <div>
-                      <div
-                        className={`${lora.className} text-white `}
-                        style={{ fontSize: "12px" }}
-                      >
-                        Full-Stack Developer
-                      </div>
+                    <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 flex flex-col  justify-end p-4 transition-opacity duration-300 px-2">
+                      <div>
+                        <div
+                          className={`${lora.className} text-white `}
+                          style={{ fontSize: "12px" }}
+                        >
+                          Full-Stack Developer
+                        </div>
 
-                      <div
-                        className={`${lora.className} text-white underline`}
-                        style={{ fontSize: "20px" }}
-                      >
-                        Notate
-                      </div>
-                      <div className={`text-white ${roboto.className} mx-2`}>
-                        To do list application built for BEM Fasilkom UI webdev
-                        division (Bismit) open recruitment task{" "}
+                        <div
+                          className={`${lora.className} text-white underline`}
+                          style={{ fontSize: "20px" }}
+                        >
+                          Notate
+                        </div>
+                        <div className={`text-white ${roboto.className} mx-2`}>
+                          To do list application built for BEM Fasilkom UI
+                          webdev division (Bismit) open recruitment task{" "}
+                        </div>
                       </div>
                     </div>
+                    <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-25 transition-opacity duration-300"></div>
                   </div>
-                  <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-25 transition-opacity duration-300"></div>
-                </div>
+                </Link>
               </SwiperSlide>
             </Swiper>
             <div className="swiper-button image-swiper-button-next">
