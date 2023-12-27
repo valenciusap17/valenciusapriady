@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Jakarta Sans";
+  src: url("../../public/fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: rgb(210, 210, 210);
+  font-family: "Jakarta Sans", sans-serif;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  justify-content: start;
+}
+
+.swiper-button {
+  position: absolute;
+  top: 42%;
+  z-index: 10;
+  cursor: pointer;
+  color: black;
+}
+
+.swiper-wrapper {
+  justify-content: start;
+}
+
+.swiper-button svg {
+  width: 4rem;
+  height: 4rem;
+}
+.image-swiper-button-prev {
+  left: 50px;
+}
+.image-swiper-button-next {
+  right: 50px;
+}
+.swiper-button-disabled {
+  opacity: 0.2;
+}
