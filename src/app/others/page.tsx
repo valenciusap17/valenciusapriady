@@ -157,11 +157,11 @@ export default function Others() {
                           className={`${lora.className} text-white underline`}
                           style={{ fontSize: "20px" }}
                         >
-                          Share Minicase Competition 2023
+                          Share Minicase Competition 2022
                         </div>
                         <div className={`text-white ${roboto.className} mx-2`}>
-                          Power point of my business competition. Didn't win but
-                          still proud of it
+                          Power point of my business competition. Did not win
+                          but still proud of it
                         </div>
                       </div>
                     </div>
