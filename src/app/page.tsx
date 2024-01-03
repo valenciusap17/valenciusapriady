@@ -30,8 +30,8 @@ export default function Home() {
         animate="enter"
         transition={{ type: "linear", duration: 2 }}
       >
-        <div className="w-full h-screen flex flex-col justify-between items-center">
-          <div className="w-full h-20 flex justify-center items-center">
+        <div className="w-full h-screen flex flex-col md:justify-between  justify-around items-center gap-5 md:gap-0">
+          <div className="w-full h-20 flex justify-center items-center ">
             <Image
               src="/images/symbol-grayscale.png"
               width={70}
@@ -39,24 +39,28 @@ export default function Home() {
               alt="logo"
             />
           </div>
-          <div className="w-6/12 h-fit flex items-center justify-center">
-            <div className="w-full flex items-center justify-center gap-5">
+          <div className="w-6/12 h-fit flex items-center justify-center ">
+            <div className="w-full flex items-center justify-center gap-5 md:flex-nowrap flex-wrap">
               <Image
                 src="/images/valen2-grayscale.jpg"
-                width={350}
-                height={350}
+                width={300}
+                height={300}
                 alt="Picture of Author"
-                className="rounded-full"
+                className="rounded-full lg:w-[350px]"
               />
-              <div className="flex flex-col">
-                <div className={lora.className} style={{ fontSize: "80px" }}>
+              <div className="flex flex-col items-center md:items-start">
+                <div
+                  className={`${lora.className} lg:text-8xl text-6xl md:text-start text-center`}
+                >
                   Hello
                 </div>
-                <div className="w-5/6 flex pl-2">
-                  <div className={lora.className} style={{ fontSize: "20px" }}>
+                <div className="w-5/6 flex">
+                  <div
+                    className={`${lora.className} md:text-[20px] md:text-start text-center `}
+                  >
                     A Bit About Me:
                     <div
-                      className={roboto.className}
+                      className={`${roboto.className}`}
                       style={{ fontSize: "12px", fontWeight: "400px" }}
                     >
                       My name is Valencius Apriady Primayudha and I am an

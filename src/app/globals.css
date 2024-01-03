@@ -34,19 +34,31 @@ body {
 }
 
 .swiper-wrapper {
-  justify-content: start;
+  justify-content: flex-start;
+  width: 80vh;
+  align-items: center;
+}
+.swiper {
+  display: flex;
+  justify-content: center;
 }
 
 .swiper-button {
-  position: absolute;
-  top: 42%;
-  z-index: 10;
   cursor: pointer;
   color: black;
 }
 
-.swiper-wrapper {
-  justify-content: start;
+@media (max-width: 768px) {
+  .swiper-button {
+    top: 72%; /* Adjust as needed */
+  }
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 30px !important;
 }
 
 .swiper-button svg {
@@ -54,7 +66,7 @@ body {
   height: 4rem;
 }
 .image-swiper-button-prev {
-  left: 50px;
+  left: 30px;
 }
 .image-swiper-button-next {
   right: 50px;

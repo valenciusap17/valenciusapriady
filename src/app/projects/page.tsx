@@ -66,10 +66,7 @@ export default function Projects() {
             Projects
           </div>
 
-          <div className={`flex h-screen w-5/6 justify-center pt-5`}>
-            <div className="swiper-button image-swiper-button-prev">
-              <IoIosArrowBack />
-            </div>
+          <div className={`flex md:h-full h-[350px] w-full p-2 pt-5 `}>
             <Swiper
               navigation={{
                 nextEl: ".image-swiper-button-next",
@@ -78,18 +75,18 @@ export default function Projects() {
               // loop={true}
               pagination={{ type: "fraction" }}
               modules={[Navigation, Pagination]}
-              slidesPerView={3}
+              slidesPerView={1}
               spaceBetween={30}
               breakpoints={{
-                1500: { slidesPerView: 3 },
-                1000: { slidesPerView: 3 },
-                700: { slidesPerView: 1 },
+                1536: { slidesPerView: 3 },
+                1280: { slidesPerView: 2 },
+                500: { slidesPerView: 1 },
               }}
-              className="mySwiper "
+              className="w-80vw h-80vh "
             >
-              <SwiperSlide>
+              <SwiperSlide className="">
                 <Link href="https://rpl-frontend-freej1ng.vercel.app/">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer justify-center items-center">
                     <Image
                       src="/images/jawabanku.png"
                       width={400}
@@ -250,11 +247,15 @@ export default function Projects() {
                 </Link>
               </SwiperSlide>
             </Swiper>
+          </div>
+          <div className="flex">
+            <div className="swiper-button image-swiper-button-prev">
+              <IoIosArrowBack />
+            </div>
             <div className="swiper-button image-swiper-button-next">
               <IoIosArrowForward />
             </div>
           </div>
-
           <Footer />
         </div>
       </motion.div>

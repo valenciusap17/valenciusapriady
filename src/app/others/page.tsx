@@ -60,16 +60,12 @@ export default function Others() {
             </Link>
           </div>
           <div
-            className={`${lora.className} items-center flex flex-col `}
-            style={{ fontSize: "60px" }}
+            className={`${lora.className} items-center flex flex-col md:text-6xl  text-4xl`}
           >
-            Non-IT Competition
+            Competitions
           </div>
 
-          <div className={`flex h-screen w-7/12 justify-center pt-5`}>
-            <div className="swiper-button image-swiper-button-prev">
-              <IoIosArrowBack />
-            </div>
+          <div className={`flex md:h-full h-[350px] w-full p-2 pt-5 `}>
             <Swiper
               navigation={{
                 nextEl: ".image-swiper-button-next",
@@ -78,14 +74,13 @@ export default function Others() {
               // loop={true}
               pagination={{ type: "fraction" }}
               modules={[Navigation, Pagination]}
-              slidesPerView={2}
+              slidesPerView={1}
               spaceBetween={30}
               breakpoints={{
-                1500: { slidesPerView: 2 },
-                1000: { slidesPerView: 2 },
-                700: { slidesPerView: 1 },
+                1280: { slidesPerView: 2 },
+                500: { slidesPerView: 1 },
               }}
-              className="mySwiper "
+              className="w-80vw h-80vh "
             >
               <SwiperSlide>
                 <Link href="https://drive.google.com/file/d/1aLGo-r5-vDSvnd4qNQD2Tegb333c6-_V/view?usp=sharing">
@@ -170,6 +165,11 @@ export default function Others() {
                 </Link>
               </SwiperSlide>
             </Swiper>
+          </div>
+          <div className="flex">
+            <div className="swiper-button image-swiper-button-prev">
+              <IoIosArrowBack />
+            </div>
             <div className="swiper-button image-swiper-button-next">
               <IoIosArrowForward />
             </div>

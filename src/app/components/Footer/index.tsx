@@ -14,14 +14,20 @@ const lora = Lora({
 export default function Footer() {
   return (
     <>
-      <div className="p-5 px-10 w-full h-28 border-t-2 border-gray-400 border-opacity-15 flex justify-between">
-        <div className={`flex flex-col ${lora.className}`}>
+      <div className="p-5 px-10 w-full h-28 border-t-2 border-gray-400 border-opacity-15 flex flex-wrap items-center justify-around md:justify-between gap-5">
+        <div
+          className={`flex flex-col ${lora.className} text-center md:text-start`}
+        >
           Phone: <div className={roboto.className}>082110925767</div>
         </div>
-        <div className={`flex flex-col ${lora.className}`}>
+        <div
+          className={`flex flex-col ${lora.className} text-center md:text-start`}
+        >
           Email: <div className={roboto.className}>v.apriady@gmail.com</div>
         </div>
-        <div className={`flex flex-col ${lora.className}`}>
+        <div
+          className={`flex flex-col ${lora.className} text-center md:text-start`}
+        >
           Follow Me:
           <div className="flex gap-2">
             <Link
@@ -44,18 +50,18 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col text-center justify-center pb-5 md:pb-0">
           <div
-            className={`flex ${roboto.className} items-center gap-1 text-sm`}
+            className={`flex flex-wrap ${roboto.className} items-center gap-1 text-sm text-center md:justify-start justify-center`}
           >
-            <FaCopyright /> 2023 Valencius Apriady Primayudha. All rights
-            reserved.
+            <FaCopyright /> 2023 Valencius Apriady Primayudha.{" "}
+            <div>All rights reserved.</div>
           </div>
           <div
-            className={`flex ${roboto.className} items-center gap-1 text-sm`}
+            className={`flex flex-wrap ${roboto.className} items-center gap-1 text-sm md:justify-start justify-center`}
           >
-            Created by{" "}
-            <div className="font-bold">Valencius Apriady Primayudha</div>
+            Created by
+          <div className="font-bold">Valencius Apriady Primayudha</div>
           </div>
         </div>
       </div>
