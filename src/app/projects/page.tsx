@@ -40,7 +40,7 @@ export default function Projects() {
           <div className="w-full h-20 flex justify-between items-center px-10">
             <Link href="/..">
               <div
-                className={` ${roboto.className} underline cursor-pointer w-auto p-1 rounded-md bg-white hover:p-2 hover:duration-200`}
+                className={` ${roboto.className} hover:underline cursor-pointer w-auto p-1 rounded-md hover:scale-110 hover:p-2 hover:duration-200`}
               >
                 Back to Home
               </div>
@@ -53,15 +53,14 @@ export default function Projects() {
             />
             <Link href="/../others">
               <div
-                className={` ${roboto.className} underline cursor-pointer w-auto p-1 rounded-md bg-white hover:p-2 hover:duration-200`}
+                className={` ${roboto.className} hover:underline cursor-pointer w-auto p-1 rounded-md hover:scale-110 hover:p-2 hover:duration-200`}
               >
                 Next to Others
               </div>
             </Link>
           </div>
           <div
-            className={`${lora.className} items-center flex flex-col `}
-            style={{ fontSize: "60px" }}
+            className={`${lora.className} items-center flex flex-col md:text-6xl  text-4xl`}
           >
             Projects
           </div>
@@ -86,7 +85,7 @@ export default function Projects() {
             >
               <SwiperSlide className="">
                 <Link href="https://rpl-frontend-freej1ng.vercel.app/">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer justify-center items-center">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60  bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer ">
                     <Image
                       src="/images/jawabanku.png"
                       width={400}
@@ -127,7 +126,7 @@ export default function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://github.com/valenciusap17/gardenofterra">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/garden-of-terra.png"
                       width={400}
@@ -168,7 +167,7 @@ export default function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://perak.cs.ui.ac.id/">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/perak.png"
                       width={400}
@@ -209,7 +208,7 @@ export default function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://github.com/valenciusap17/NotateFE">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/notate.png"
                       width={400}

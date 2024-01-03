@@ -40,7 +40,7 @@ export default function Others() {
           <div className="w-full h-20 flex justify-between items-center px-10">
             <Link href="/..">
               <div
-                className={` ${roboto.className} underline cursor-pointer w-auto p-1 rounded-md bg-white hover:p-2 hover:duration-200`}
+                className={` ${roboto.className} hover:underline cursor-pointer w-auto p-1 rounded-md hover:scale-110 hover:p-2 hover:duration-200`}
               >
                 Back to Home
               </div>
@@ -53,7 +53,7 @@ export default function Others() {
             />
             <Link href="/../projects">
               <div
-                className={` ${roboto.className} underline cursor-pointer w-auto p-1 rounded-md bg-white hover:p-2 hover:duration-200`}
+                className={` ${roboto.className} hover:underline cursor-pointer w-auto p-1 rounded-md hover:scale-110 hover:p-2 hover:duration-200`}
               >
                 Next to Projects
               </div>
@@ -84,7 +84,7 @@ export default function Others() {
             >
               <SwiperSlide>
                 <Link href="https://drive.google.com/file/d/1aLGo-r5-vDSvnd4qNQD2Tegb333c6-_V/view?usp=sharing">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/dataslayer.png"
                       width={400}
@@ -125,7 +125,7 @@ export default function Others() {
               </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://drive.google.com/file/d/1tgsN-lr3H7HapgxOVbYcz18_QMguLZcv/view">
-                  <div className="w-[400px] h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
                     <Image
                       src="/images/cainiao.png"
                       width={400}
