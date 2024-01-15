@@ -76,7 +76,7 @@ export default function Home() {
                     animate="enter"
                     transition={{ type: "linear", duration: 2 }}
                   >
-                    <Link href="https://drive.google.com/file/d/1k3pISh3EIzfckNETyr0XQff5kk2cgNX9/view?usp=sharing">
+                    <Link href="https://docs.google.com/document/d/1E1tngh7mVQIObCgaAutq9cpo4D_unarRdibQbZSOLuQ/edit?usp=sharing">
                       <div
                         className={`w-28 h-28 bg-yellow-600 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:bg-white shadow-xl ${lora.className}`}
                       >
