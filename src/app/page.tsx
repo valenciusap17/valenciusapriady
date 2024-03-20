@@ -63,8 +63,8 @@ export default function Home() {
                       className={`${roboto.className}`}
                       style={{ fontSize: "12px", fontWeight: "400" }}
                     >
-                      My name is Valencius Apriady Primayudha and I am an 
-                       undergraduate student  at the  University of Indonesia specializing in Backend Engineering. Currently
+                      My name is <span className="font-bold">Valencius Apriady Primayudha</span> and I am an 
+                      <span className="font-bold"> undergraduate student </span> at the <span className="font-bold"> University of Indonesia</span>  specializing in <span className="font-bold">Backend Engineering</span>. Currently
                       dedicated to deepening my expertise in creating efficient and scalable web applications
                     </div>
                   </div>
