@@ -77,11 +77,52 @@ export default function Others() {
               slidesPerView={1}
               spaceBetween={30}
               breakpoints={{
+                1536: { slidesPerView: 3 },
                 1280: { slidesPerView: 2 },
                 500: { slidesPerView: 1 },
               }}
               className="w-80vw h-80vh "
             >
+              <SwiperSlide>
+                <Link href="https://drive.google.com/file/d/1IOTRKgincBqhfvMLGbPOrVZ6LCbdpcZx/view?usp=sharing">
+                  <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
+                    <Image
+                      src="/images/LogikaUi.jpg"
+                      width={400}
+                      height={400}
+                      alt="perak"
+                      className="object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 w-full py-2 bg-gray-900 bg-opacity-75">
+                      <p className="text-white text-lg text-center">
+                        LOGIKA UI Statistic Competition 2024
+                      </p>
+                    </div>
+
+                    <div className=" absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 flex flex-col  justify-end p-4 transition-opacity duration-300 px-2">
+                      <div>
+                        <div
+                          className={`${lora.className} text-white `}
+                          style={{ fontSize: "12px" }}
+                        >
+                          Competition Attende
+                        </div>
+
+                        <div
+                          className={`${lora.className} text-white underline`}
+                          style={{ fontSize: "20px" }}
+                        >
+                          LOGIKA UI 2024
+                        </div>
+                        <div className={`text-white ${roboto.className} mx-2`}>
+                          Writing and analysis document about the machine learning model I developed
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute inset-0 group-hover:bg-black group-hover:bg-opacity-25 transition-opacity duration-300"></div>
+                  </div>
+                </Link>
+              </SwiperSlide>
               <SwiperSlide>
                 <Link href="https://drive.google.com/file/d/1aLGo-r5-vDSvnd4qNQD2Tegb333c6-_V/view?usp=sharing">
                   <div className="w-[350px] h-52 md:w-[400px] md:h-60 bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer">
