@@ -54,7 +54,7 @@ export default function Footer() {
           <div
             className={`flex flex-wrap ${roboto.className} items-center gap-1 text-sm text-center md:justify-start justify-center`}
           >
-            <FaCopyright /> 2023 Valencius Apriady Primayudha.{" "}
+            <FaCopyright /> {new Date().getFullYear()} Valencius Apriady Primayudha.{" "}
             <div>All rights reserved.</div>
           </div>
           <div

@@ -207,7 +207,7 @@ export default function Projects() {
                 </Link>
               </SwiperSlide>
               <SwiperSlide className="">
-                <Link href="https://rpl-frontend-freej1ng.vercel.app/">
+                <Link href="https://github.com/valenciusap17/Kalbe">
                   <div className="w-[350px] h-52 md:w-[400px] md:h-60  bg-white flex flex-col rounded-xl overflow-hidden relative group cursor-pointer ">
                     <Image
                       src="/images/dotnet.png"
@@ -235,7 +235,7 @@ export default function Projects() {
                           className={`${lora.className} text-white underline`}
                           style={{ fontSize: "20px" }}
                         >
-                          Jawabanku
+                          Learning Center
                         </div>
                         <div className={`text-white ${roboto.className} mx-2`}>
                           Fully operated application imitating learning center application built with .NET Core 8 framework and MVC architecture
